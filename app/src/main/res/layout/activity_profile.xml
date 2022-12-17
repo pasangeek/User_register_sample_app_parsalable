@@ -11,8 +11,9 @@
         android:layout_width="269dp"
         android:layout_height="54dp"
 
-        android:layout_marginTop="136dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -21,9 +22,9 @@
         android:layout_width="269dp"
         android:layout_height="54dp"
 
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_person_name" />
 
@@ -32,9 +33,9 @@
         android:layout_width="269dp"
         android:layout_height="54dp"
 
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_person_email" />
 
@@ -44,10 +45,10 @@
         android:layout_height="54dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_person_age"
-        app:layout_constraintVertical_bias="0.147" />
+        app:layout_constraintVertical_bias="0.185" />
 
     <com.google.android.material.imageview.ShapeableImageView
         android:id="@+id/imageView"
